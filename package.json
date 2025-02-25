@@ -2,7 +2,7 @@
   "name": "gregjs-theme",
   "displayName": "GregJS Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "gregjs",
   "license": "MIT",
   "repository": {
