@@ -1,0 +1,23 @@
+{
+  "name": "gregjs-theme",
+  "displayName": "GregJS Theme",
+  "description": "The most epic theme now for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "x1kk4",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GregJS",
+        "uiTheme": "hc-black",
+        "path": "./themes/GregJS-color-theme.json"
+      }
+    ]
+  }
+}
