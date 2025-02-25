@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "gregjs",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x1kk4/GregJS-Theme.git"
+  },
   "engines": {
     "vscode": "^1.67.0"
   },
