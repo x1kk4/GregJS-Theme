@@ -3,7 +3,7 @@
   "displayName": "GregJS Theme",
   "description": "The most epic theme now for Visual Studio Code",
   "version": "0.0.1",
-  "publisher": "x1kk4",
+  "publisher": "gregjs",
   "license": "MIT",
   "engines": {
     "vscode": "^1.67.0"
@@ -15,9 +15,14 @@
     "themes": [
       {
         "label": "GregJS",
-        "uiTheme": "hc-black",
+        "uiTheme": "vs-dark",
         "path": "./themes/GregJS-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish:minor": "vsce publish minor",
+    "publish:major": "vsce publish major"
   }
 }
